@@ -40,16 +40,6 @@ let interval = setInterval(()=>{
         clearInterval(interval);
 
     }
-
-<script>
-const music = document.getElementById("bgMusic");
-const startBtn = document.getElementById("startBtn");
-
-startBtn.addEventListener("click", function () {
-    music.play();
-});
-</script>
-
     
 },50);
 
