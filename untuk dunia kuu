@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untuk Kamu ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HATI JATUH -->
+<div id="hearts"></div>
+
+<!-- PEMBUKA -->
+<section class="opening" id="opening">
+
+    <div class="gift">
+        🎁
+    </div>
+
+    <h1>Hai Sayang ❤️</h1>
+
+    <p>
+        Aku punya sesuatu kecil<br>
+        tapi dibuat khusus untuk kamu...
+    </p>
+
+    <button onclick="openGift()">
+        Buka Hadiah 💗
+    </button>
+
+</section>
+
+
+<!-- ISI WEBSITE -->
+<main id="main" class="hidden">
+
+
+<section class="card">
+
+<h1>Untuk Kamu 💕</h1>
+
+<p class="typing" id="typing"></p>
+
+</section>
+
+
+
+<section class="card">
+
+<h2>📸 Kenangan Kita</h2>
+
+<div class="gallery">
+
+<img src="img/foto1.jpg">
+<img src="img/foto2.jpg">
+<img src="img/foto3.jpg">
+
+</div>
+
+<p>
+*(nanti ganti foto di folder img ya)*
+</p>
+
+</section>
+
+
+
+
+<section class="card">
+
+<h2>💗 Kenapa Aku Sayang Kamu</h2>
+
+
+<div class="love-box">
+🌸 Kamu selalu membuat aku tersenyum
+</div>
+
+<div class="love-box">
+🌸 Kamu selalu ada saat aku butuh
+</div>
+
+<div class="love-box">
+🌸 Kamu adalah orang spesial buat aku
+</div>
+
+<div class="love-box">
+🌸 Terima kasih sudah menjadi bagian hidupku
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="card">
+
+<h2>⏳ Perjalanan Kita</h2>
+
+<p>
+Sudah bersama selama:
+</p>
+
+<h1 id="days">
+0 Hari ❤️
+</h1>
+
+
+</section>
+
+
+
+
+
+<section class="card">
+
+<h2>💌 Pesan Untuk Kamu</h2>
+
+
+<p>
+
+Aku tidak tahu bagaimana masa depan nanti,
+tapi aku berharap kita tetap bisa tertawa,
+bercerita, dan saling menemani.
+
+<br><br>
+
+Terima kasih sudah hadir.
+
+<br><br>
+
+Aku sayang kamu ❤️
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="card ending">
+
+<h1>
+❤️
+</h1>
+
+<h2>
+Sampai kapan pun,
+kamu tetap spesial buat aku.
+</h2>
+
+
+<button onclick="love()">
+Klik Aku 💕
+</button>
+
+
+</section>
+
+
+</main>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
