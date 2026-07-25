@@ -40,8 +40,7 @@ let interval = setInterval(()=>{
         clearInterval(interval);
 
     }
-    
-    
+        
 },50);
 
 
