@@ -45,13 +45,7 @@ let interval = setInterval(()=>{
 },50);
 
 
-}
 
-document.addEventListener('click', function() {
-    const audio = document.querySelector('audio');
-    if (audio.paused) {
-        audio.play();
-    }
 }, { once: true });
 
 // ===============================
