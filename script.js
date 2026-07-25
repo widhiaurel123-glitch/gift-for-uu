@@ -47,7 +47,12 @@ let interval = setInterval(()=>{
 
 }
 
-
+document.addEventListener('click', function() {
+    const audio = document.querySelector('audio');
+    if (audio.paused) {
+        audio.play();
+    }
+}, { once: true });
 
 // ===============================
 // HATI BERJATUHAN
