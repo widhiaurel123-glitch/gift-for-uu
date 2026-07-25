@@ -19,7 +19,7 @@ function openGift(){
 // ===============================
 
 const text = 
-"Halo sayang ❤️ Aku membuat website kecil ini khusus untuk kamu. Terima kasih sudah hadir, menemani, dan membuat hari-hariku lebih indah.";
+"Halo sayang ❤️ Aku membuat website kecil-kecilan ini khusus buat kamu. Terima kasih sudah hadir, menemani, dan membuat hari-hariku lebih indah.";
 
 let index = 0;
 
@@ -101,7 +101,7 @@ setInterval(createHeart,300);
 // ===============================
 
 
-const tanggalJadian = new Date("2025-01-01");
+const tanggalJadian = new Date("2026-2-16");
 
 
 function hitungHari(){
