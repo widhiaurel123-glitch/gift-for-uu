@@ -41,11 +41,10 @@ let interval = setInterval(()=>{
 
     }
     
+    
 },50);
 
 
-
-}, { once: true });
 
 // ===============================
 // HATI BERJATUHAN
